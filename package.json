@@ -1,0 +1,38 @@
+{
+  "name": "QA-WebDriverIO-FrameWork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx wdio wdio.conf.js android"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FaberODT/QA-WebDriverIO-FrameWork.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FaberODT/QA-WebDriverIO-FrameWork/issues"
+  },
+  "homepage": "https://github.com/FaberODT/QA-WebDriverIO-FrameWork#readme",
+  "devDependencies": {
+    "@wdio/appium-service": "^6.4.7",
+    "@wdio/cli": "^6.5.2",
+    "@wdio/jasmine-framework": "^6.5.0",
+    "@wdio/local-runner": "^6.5.2",
+    "@wdio/mocha-framework": "^6.5.0",
+    "@wdio/spec-reporter": "^6.4.7",
+    "@wdio/sync": "^6.5.0",
+    "appium": "^1.20.1",
+    "appium-doctor": "^1.15.3",
+    "chai": "^4.2.0",
+    "chromedriver": "^85.0.1",
+    "dotenv": "^8.2.0",
+    "wd": "^1.13.0",
+    "wdio": "^4.0.0",
+    "wdio-chromedriver-service": "^6.0.4",
+    "webdriverio": "^6.5.2"
+  }
+}

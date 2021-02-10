@@ -1,0 +1,14 @@
+1. Pre-requisites
+- install Git
+- install nodeJS
+- install VSC
+
+2. Clone the repo
+
+3. Open the folder in VSC
+
+4. Run 'npm i' command in VSC terminal
+
+5. change the app path in wdo.conf.js file (and other capabilities if required)
+
+6. Run 'npm test'command in VSC terminal to execute test written in login.e2e.js file
